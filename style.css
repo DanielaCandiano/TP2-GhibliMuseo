@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+
+
+body{
+    background-color: #FFFEF6 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #2D2D2D;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+}
+
+
+/*--------------barra de navegación--------------*/
+nav {
+    background-color: #FFA69E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+nav .nav-link {
+    color: #FFFEF6;
+    transition: all .3s ease;
+}
+
+nav .nav-link:hover {
+    color: #D2675D;
+}
+/*--------------fin barra de navegación--------------*/
+
+
+/*--------------portada--------------*/
+#portada {
+    background-color: #FFFEF6;
+}
+
+/*--------------portada--------------*/
+
+.img-p {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.titulo-p {
+    color: #A8B17A;
+    font-weight: 400;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.titulo-s {
+    color: #A8B17A;
+    font-weight: 400;
+    font-size: 45px;
+    
+}
+
+
+.parrafo-p {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+/*--------------fin portada--------------*/
+
+/*--------------hr--------------*/
+.division {
+    border: solid 1px;
+    max-width: 260px;
+    margin: 1.5rem auto;
+    color: #2D2D2D;
+    opacity: 1;
+}
+
+.division2 {
+    border: solid 1px;
+    max-width: 600px;
+    margin: 1.5rem auto;
+    color: #FFA69E;
+    opacity: 1;
+}
+/*--------------hr--------------*/
+
+
+/*--------------section bienvenidos--------------*/
+#museo {
+    background-color: #FFFEF6;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+/*--------------fin section bienvenidos--------------*/
+
+.btn-primary{
+    background-color:  #FFFEF6 !important; 
+    border:2px solid  #FFA69E !important;
+    color: #FFA69E  !important;
+    font-family:'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    padding-left: 20px !important;
+    padding-right:20px !important;
+    margin-right: 0px !important;
+    margin-left: 90px;
+}
+
+.btn-primary:hover{
+    background-color: #FFA69E !important;
+    color: #FFFEF6 !important;
+    
+}
+
+.btn-primary-2{
+    background-color:  #FFFEF6 !important; 
+    border:2px solid  #EEF1E0 !important;
+    color: #A8B17A  !important;
+    font-family:'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.btn-primary-2:hover{
+    background-color: #A8B17A !important;
+    color: #FFFEF6 !important;
+    
+}
+
+.btn-green{
+    background-color:  #A8B17A !important;
+    border:2px solid  #A8B17A !important;
+    color: #FFFEF6  !important;
+    font-family:'Montserrat', sans-serif !important;
+    font-weight: 700 !important;
+    padding-left: 20px !important;
+    padding-right:20px !important;
+    margin-right: 100px !important;
+    margin-left: 210px;
+    
+}
+
+.btn-green:hover{
+    background-color: #FFFEF6 !important;
+    border-color: #A8B17A !important;
+    color: #A8B17A !important;
+    
+}
+
+.titulo-m{
+    font-weight: 400 !important;
+    color: #73D2DE;
+    margin-top: 40px;
+}
+
+
+.titulo-e{
+    font-weight: 400 !important;
+    color: #FFA69E;
+}
+
+#museo {
+    background-color: #FFFEF6;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+hr{
+    border: solid 1px;
+    max-width: 260px;
+    margin: 1.5rem auto;
+    color: #2D2D2D;
+    opacity: 1;
+}
+
+#visita{
+    background-color: #FFFEF6;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+
+#atracciones{
+    background-color: #FFFEF6;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right:300px;
+    border-radius: 20px;
+    border: 2px solid #FFA69E;
+}
+
+.division-v{
+    border: solid 1px;
+    max-width: 600px;
+    margin: 1.5rem auto;
+    color: #FFA69E;
+    opacity: 1;
+}
+
+
+.division2{
+    border: solid 1px;
+    max-width: 800px;
+    margin: 1.5rem auto;
+    color: #A8B17A ;
+    opacity: 1;
+}
+
+.division-4{
+    border: solid 1px;
+    max-width: 20000px;
+    margin: 1.5rem auto;
+    color: #FFA69E ;
+    opacity: 1;
+}
+
+.cards-v{
+    background-color: #100f0f !important;
+    border: none !important;
+
+}
+
+.icono-v{
+    color: #D2675D;
+    width: 40px;
+    height: 40px;
+}
+
+h3{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+}
+
+
+#coleccion{
+    background-color: #EEF1E0;
+    padding-bottom: 80px;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 20px;
+   
+}
+
+
+
+.division-e {
+    border: solid 1px;
+    margin: 1.5rem auto;
+    color: #A8B17A;
+    opacity: 1;
+    max-width: 800px;
+}
+
+.division-5 {
+    border: solid 1px;
+    margin: 1.5rem auto;
+    color: #73D2DE;
+    opacity: 1;
+    max-width: 900px;
+}
+
+
+.modal-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #A8B17A;
+}
+
+
+#exhibiciones {
+    background-color: #FFFEF6;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.btn-ex {
+    background-color: #A8B17A !important;
+    border: 2px solid #A8B17A !important;
+    color: #FFFEF6 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    
+}
+
+.btn-ex:hover {
+    background-color: #FFFEF6 !important;
+    color: #A8B17A !important;
+}
+
+.btn-pink {
+    background-color: #FFA69E !important;
+    border: 2px solid #FFA69E !important;
+    color: #FFFEF6 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+}
+
+.btn-pink:hover {
+    background-color: #FFFEF6 !important;
+    color: #FFA69E !important;
+}
+
+#video{
+    background-color: #FFFEF6;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.titulo-d{
+    font-weight: 300 !important;
+    color: #73D2DE;
+    margin-top: 40px;
+}
+
+#pelicula{
+    background-color: #FFFEF6;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+#imagen-museo{
+    background-color: #FFFEF6;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#footer{
+    background-color: #A8B17A;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+     
+.titulo-2{
+    font-weight: 400 !important;
+    color: #73D2DE;
+    margin-top: 40px;
+}
+      
+
+#footer p {
+color: #FFFEF6;
+
+}
+
+.titulo-r{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700;
+}
+
+.formulario{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+input {
+background-color:#fffef6b0 !important;
+border: 1px solid #fffef6b0 !important;
+}
